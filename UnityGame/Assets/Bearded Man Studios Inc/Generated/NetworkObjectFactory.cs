@@ -43,6 +43,38 @@ namespace BeardedManStudios.Forge.Networking.Generated
 						availableCallback = true;
 						obj = new TestNetworkObject(networker, id, frame);
 						break;
+					case ZfBasePlayerCubeNetworkObject.IDENTITY:
+						availableCallback = true;
+						obj = new ZfBasePlayerCubeNetworkObject(networker, id, frame);
+						break;
+					case ZfBaseRPCMoveCube2NetworkObject.IDENTITY:
+						availableCallback = true;
+						obj = new ZfBaseRPCMoveCube2NetworkObject(networker, id, frame);
+						break;
+					case ZfBaseRPCMoveCubeNetworkObject.IDENTITY:
+						availableCallback = true;
+						obj = new ZfBaseRPCMoveCubeNetworkObject(networker, id, frame);
+						break;
+					case ZfBasicCubeNetworkObject.IDENTITY:
+						availableCallback = true;
+						obj = new ZfBasicCubeNetworkObject(networker, id, frame);
+						break;
+					case ZfFirstTestNetworkObject.IDENTITY:
+						availableCallback = true;
+						obj = new ZfFirstTestNetworkObject(networker, id, frame);
+						break;
+					case ZfGuideGameLogicNetworkObject.IDENTITY:
+						availableCallback = true;
+						obj = new ZfGuideGameLogicNetworkObject(networker, id, frame);
+						break;
+					case ZfGuidePlayerNetworkObject.IDENTITY:
+						availableCallback = true;
+						obj = new ZfGuidePlayerNetworkObject(networker, id, frame);
+						break;
+					case ZfGuideGameBallNetworkObject.IDENTITY:
+						availableCallback = true;
+						obj = new ZfGuideGameBallNetworkObject(networker, id, frame);
+						break;
 				}
 
 				if (!availableCallback)
