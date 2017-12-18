@@ -5,6 +5,6 @@ using BeardedManStudios.Forge.Networking.Generated;
 using BeardedManStudios.Forge.Networking;
 using UnityStandardAssets.Characters.FirstPerson;
 
-public class ZfGuideGameBall : ZfGuidePlayerBehavior
-{
-}
+//public class ZfGuideGameBall : ZfGuidePlayerBehavior
+//{
+//}
